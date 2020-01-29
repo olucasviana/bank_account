@@ -5,6 +5,9 @@ public class Account {
 	private int number;
 	private String holder;
 	private double balance;
+	
+	public Account() {
+	}
 
 	public Account(int number, String holder) {
 		this.number = number;
